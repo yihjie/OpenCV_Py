@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60fa614a-a6a3-47ee-b88c-3268b1f09ba3" name="Changes" comment="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse" />
+    <list default="true" id="60fa614a-a6a3-47ee-b88c-3268b1f09ba3" name="Changes" comment="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse">
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_17_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +74,11 @@
       <workItem from="1689750328193" duration="6588000" />
       <workItem from="1689856762410" duration="21000" />
       <workItem from="1689856789475" duration="3367000" />
+      <workItem from="1689943330680" duration="2333000" />
+      <workItem from="1690203740445" duration="307000" />
+      <workItem from="1690204080526" duration="419000" />
+      <workItem from="1690204528178" duration="118000" />
+      <workItem from="1690204679565" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="Rebase">
       <option name="closed" value="true" />
@@ -164,32 +179,40 @@
     <option name="LAST_COMMIT_MESSAGE" value="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_15.coverage" NAME="ch6_15 Coverage Results" MODIFIED="1689745873228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_7.coverage" NAME="ch7_7 Coverage Results" MODIFIED="1689759470751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_1.coverage" NAME="ch7_1 Coverage Results" MODIFIED="1689752207780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_4.coverage" NAME="ch7_4 Coverage Results" MODIFIED="1689756078468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_7_1.coverage" NAME="ch6_7_1 Coverage Results" MODIFIED="1689746168773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_12.coverage" NAME="ch6_12 Coverage Results" MODIFIED="1689746763132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_7_1.coverage" NAME="ch7_7_1 Coverage Results" MODIFIED="1689856830948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_1.coverage" NAME="hw6_1 Coverage Results" MODIFIED="1689746295879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_1_1.coverage" NAME="ch7_1_1 Coverage Results" MODIFIED="1689756764147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_8.coverage" NAME="ch7_8 Coverage Results" MODIFIED="1689856966825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_5.coverage" NAME="ch7_5 Coverage Results" MODIFIED="1689757665194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_9.coverage" NAME="ch6_9 Coverage Results" MODIFIED="1689681042531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_1.coverage" NAME="ch6_1 Coverage Results" MODIFIED="1689672358421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_14.coverage" NAME="ch6_14 Coverage Results" MODIFIED="1689744004299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_3.coverage" NAME="hw6_3 Coverage Results" MODIFIED="1689748566877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_2.coverage" NAME="ch7_2 Coverage Results" MODIFIED="1689750818703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_11.coverage" NAME="ch7_11 Coverage Results" MODIFIED="1689858434872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_9.coverage" NAME="ch7_9 Coverage Results" MODIFIED="1689857178506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_17.coverage" NAME="ch7_17 Coverage Results" MODIFIED="1689949162684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_11.coverage" NAME="ch6_11 Coverage Results" MODIFIED="1689738984266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_3.coverage" NAME="ch7_3 Coverage Results" MODIFIED="1689750965513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_10.coverage" NAME="ch6_10 Coverage Results" MODIFIED="1689682852697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_11.coverage" NAME="ch7_11 Coverage Results" MODIFIED="1689858434872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_8.coverage" NAME="ch7_8 Coverage Results" MODIFIED="1689856966825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_9.coverage" NAME="ch7_9 Coverage Results" MODIFIED="1689857178506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_5.coverage" NAME="ch7_5 Coverage Results" MODIFIED="1689757665194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_8_1.coverage" NAME="ch6_8_1 Coverage Results" MODIFIED="1689680703828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_13.coverage" NAME="ch6_13 Coverage Results" MODIFIED="1689739520654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_2.coverage" NAME="hw6_2 Coverage Results" MODIFIED="1689748389551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_13.coverage" NAME="ch6_13 Coverage Results" MODIFIED="1689739520654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_10.coverage" NAME="ch6_10 Coverage Results" MODIFIED="1689682852697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_13.coverage" NAME="ch7_13 Coverage Results" MODIFIED="1689943993844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_6.coverage" NAME="ch7_6 Coverage Results" MODIFIED="1689759215412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
-    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_10.coverage" NAME="ch7_10 Coverage Results" MODIFIED="1689857918678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_8.coverage" NAME="ch6_8 Coverage Results" MODIFIED="1689679911046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_18.coverage" NAME="ch7_18 Coverage Results" MODIFIED="1690205278895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_15.coverage" NAME="ch6_15 Coverage Results" MODIFIED="1689745873228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_7_1.coverage" NAME="ch6_7_1 Coverage Results" MODIFIED="1689746168773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_3.coverage" NAME="ch7_3 Coverage Results" MODIFIED="1689750965513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_10.coverage" NAME="ch7_10 Coverage Results" MODIFIED="1689857918678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_1.coverage" NAME="ch7_1 Coverage Results" MODIFIED="1689752207780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_7.coverage" NAME="ch7_7 Coverage Results" MODIFIED="1689759470751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_9.coverage" NAME="ch6_9 Coverage Results" MODIFIED="1689681042531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_7_1.coverage" NAME="ch7_7_1 Coverage Results" MODIFIED="1689856830948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_4.coverage" NAME="ch7_4 Coverage Results" MODIFIED="1689756078468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_12.coverage" NAME="ch6_12 Coverage Results" MODIFIED="1689746763132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_15.coverage" NAME="ch7_15 Coverage Results" MODIFIED="1689944175239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_1.coverage" NAME="hw6_1 Coverage Results" MODIFIED="1689746295879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_16.coverage" NAME="ch7_16 Coverage Results" MODIFIED="1690204871030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_12.coverage" NAME="ch7_12 Coverage Results" MODIFIED="1689925878002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_17_1.coverage" NAME="ch7_17_1 Coverage Results" MODIFIED="1690204881772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_2.coverage" NAME="ch7_2 Coverage Results" MODIFIED="1689750818703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_1_1.coverage" NAME="ch7_1_1 Coverage Results" MODIFIED="1689756764147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_3.coverage" NAME="hw6_3 Coverage Results" MODIFIED="1689748566877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_14.coverage" NAME="ch6_14 Coverage Results" MODIFIED="1689744004299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch6_1.coverage" NAME="ch6_1 Coverage Results" MODIFIED="1689672358421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_14.coverage" NAME="ch7_14 Coverage Results" MODIFIED="1689943976143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
   </component>
 </project>
