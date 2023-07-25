@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60fa614a-a6a3-47ee-b88c-3268b1f09ba3" name="Changes" comment="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse">
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_17_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch_7/ch7_18.py" afterDir="false" />
+    <list default="true" id="60fa614a-a6a3-47ee-b88c-3268b1f09ba3" name="Changes" comment="update .gitignore">
+      <change afterPath="$PROJECT_DIR$/ch_7/ch7_19.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch_7/ch7_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch_7/ch7_18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +73,8 @@
       <workItem from="1690203740445" duration="307000" />
       <workItem from="1690204080526" duration="419000" />
       <workItem from="1690204528178" duration="118000" />
-      <workItem from="1690204679565" duration="925000" />
+      <workItem from="1690204679565" duration="1227000" />
+      <workItem from="1690249576875" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Rebase">
       <option name="closed" value="true" />
@@ -152,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689859593260</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse">
+      <option name="closed" value="true" />
+      <created>1690205676579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690205676579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update .gitignore">
+      <option name="closed" value="true" />
+      <created>1690205782691</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690205782691</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +188,8 @@
     <MESSAGE value="Update the .gitignore" />
     <MESSAGE value="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV" />
     <MESSAGE value="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Study Chapter 7&#10;2. Draw by numpy and OpenCV&#10;3. Draw circle, ellipse" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_17.coverage" NAME="ch7_17 Coverage Results" MODIFIED="1689949162684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
@@ -208,6 +221,7 @@
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_16.coverage" NAME="ch7_16 Coverage Results" MODIFIED="1690204871030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_12.coverage" NAME="ch7_12 Coverage Results" MODIFIED="1689925878002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_17_1.coverage" NAME="ch7_17_1 Coverage Results" MODIFIED="1690204881772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
+    <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_19.coverage" NAME="ch7_19 Coverage Results" MODIFIED="1690249788857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_2.coverage" NAME="ch7_2 Coverage Results" MODIFIED="1689750818703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$ch7_1_1.coverage" NAME="ch7_1_1 Coverage Results" MODIFIED="1689756764147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_7" />
     <SUITE FILE_PATH="coverage/OpenCV_Py$hw6_3.coverage" NAME="hw6_3 Coverage Results" MODIFIED="1689748566877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch_6" />
