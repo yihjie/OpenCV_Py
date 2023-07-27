@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 img = cv2.imread('antarctic.jpg')                       # 使用影像當畫布
 img[1:300, 1:300] = (0, 255, 255)                       # B=0, G=255, R=255 == Yellow
