@@ -34,3 +34,15 @@
        [ 0   0  0],
        [ 3  10  3]]
 - 強調更微弱的影像邊緣，但可能讓整個影像邊緣顯得更複雜
+
+---
+# Laplacian()
+- 法國 Pierre-Simon Laplace 發明
+- 二階微分
+- 一組 3x3 矩陣
+- [[0  1  0],
+   [1 -4  1],
+   [0  1  0]]
+- dst = cv2.Laplacian(src, ddepth, ksize, scale, delta, borderType)
+  * ksize 一般設定為 3
+- 建議先使用 cv2.GaussianBlur() 降低噪音
