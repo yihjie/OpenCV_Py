@@ -46,3 +46,26 @@
 - dst = cv2.Laplacian(src, ddepth, ksize, scale, delta, borderType)
   * ksize 一般設定為 3
 - 建議先使用 cv2.GaussianBlur() 降低噪音
+
+---
+# Canny()
+- 1986 澳洲 John F. Canny 開發
+- 多級邊緣檢測演算法
+- 邊緣檢測計算理論 ( Computational edge detection)
+  * 好的檢測 : 盡可能標出影像的實際邊緣
+  * 好的定位 : 標出的邊緣要與實際影像相符
+  * 最小響應 : 邊緣只標出一次，雜訊不被標示為邊緣
+- 執行步驟
+1. 降低噪音 ( Noise Reduction )
+2. 找尋影像的亮度梯度 ( Find Intensity Gradient of the Image )
+3. 非最大值則抑制 ( Non-maximum Suppression )
+4. 滯後閾值 ( Hysteresls Thresholding )
+   1) if pixel gradient > maxVal --> Edge
+   2) if pixel gradient < minVal --> Non-Edge
+   3) if minVal < pixel < maxVal , pixel linked Edge --> Edge
+- dst = cv2.Canny(image, threshold1, threshold2, edges, apertureSize = 3, L2gradient = False)
+    * threshold1 : minVal
+    * threshold2 : maxVal
+    * L2gradient
+      * True  : Edge_Gradient(G) = (G(x)^2 + G(y)^2)^(1/2)
+      * False : Edge_Gradient(G) = Abs(G(x)) + Abs(G(y))
