@@ -25,5 +25,8 @@
     - 使用插值處理，將 0 重新補值
   - dst = cv2.pyrUp(src, dstsize, borderType)
     - dstsize : ((src.cols * 2), (src.rows * 2))
+
 ---
+
+# Laplacian Pyramid , LP (拉普拉斯金字塔)
 
