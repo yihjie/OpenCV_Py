@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-src = np.random.randint(256, size=(8, 8), dtype=np.uint8)
+src = np.random.randint(256, size=(4, 4), dtype=np.uint8)
 
 G0 = src
 G1 = cv2.pyrDown(src)
