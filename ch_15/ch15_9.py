@@ -1,6 +1,5 @@
 # Modified from ch15_1.py
 import cv2
-import numpy as np
 
 src = cv2.imread('lake.jpg')
 src_copy = src.copy()
@@ -11,14 +10,11 @@ ret, dst_binary = cv2.threshold(src_gray, 150, 255, cv2.THRESH_BINARY)
 # 3.
 contours, hierarchy = cv2.findContours(dst_binary, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 # 4.
-mask = np.zeros(src.shape, np.uint8)
-dst = cv2.drawContours(mask, contours, -1, (255, 255,255), -1)
-dst_result = np.bitwise_and(src, mask)
+dst = cv2.drawContours(src, contours, -1, (255, 255,255), -1)
 
-cv2.imshow('Dst', dst)
 cv2.imshow('Src', src_copy)
 cv2.imshow('Src Binary', dst_binary)
-cv2.imshow('RST', dst_result)
+cv2.imshow('RST', dst)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
